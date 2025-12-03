@@ -1,2 +1,2 @@
 # Driverless-car-assistance
-Provide a developer-friendly ADAS stack that demonstrates lane segmentation, object detection (cars, pedestrians, signs), simple behavioral rules (slow on red zone, warn on obstacles), and an optional auto-mode where the system outputs steering/throttle commands for a compatible controller or simulator.
+Provides a developer-friendly ADAS stack that demonstrates lane segmentation, object detection (cars, pedestrians, signs), simple behavioral rules (slow on red zone, warn on obstacles), and an optional auto-mode where the system outputs steering/throttle commands for a compatible controller or simulator. The aim of the project is to provide a way for driverless cars to understand the world through computer vision.
