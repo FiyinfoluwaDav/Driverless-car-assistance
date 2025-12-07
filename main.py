@@ -35,7 +35,6 @@ def process_video():
             break
 
         resized_frame = cv2.resize(frame, (1280, 720))
-        overlay = resized_frame.copy()
 
         # Run YOLOv8 to detect cars
         results = model(resized_frame)
@@ -97,6 +96,7 @@ def process_video():
             text_alpha = max(text_alpha - text_fade_speed, text_target_alpha)
 
         if text_alpha > 0:
+            overlay = resized_frame.copy()
             font_scale = 2
             font = cv2.FONT_HERSHEY_TRIPLEX
             try:
