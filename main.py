@@ -77,12 +77,12 @@ def process_video():
         
         # Update text and alpha target based on detection
         if red_alert_triggered:
-            warning_text = "⚠ Warning"
+            warning_text = "Warning!"
             text_target_alpha = 1
             text_color = (0, 0, 255)
             bg_color = (0, 0, 100)
         elif not car_detected:
-            warning_text = "Free road"
+            warning_text = "Free road!"
             text_target_alpha = 1
             text_color = (0, 255, 0)
             bg_color = (0, 100, 0)
