@@ -29,7 +29,7 @@ To get started with the project, you will need to have Python and several other 
 
 1.  Clone the repository to your local machine:
     ```
-    git clone https://github.com/user/Driverless-car-assistance.git
+    git clone https://github.com/FiyinfoluwaDav/Driverless-car-assistance.git
     ```
 2.  Navigate to the project directory:
     ```
@@ -48,7 +48,7 @@ Once you have installed the dependencies, you can run the main application.
 python main.py
 ```
 
-The application will launch and you will be able to see the output of the computer vision system in real-time. You can also enable the auto-mode to let the system control the vehicle in a compatible simulator.
+The application will launch, and you will be able to see the output of the computer vision system in real-time. You can also enable the auto-mode to let the system control the vehicle in a compatible simulator.
 
 ## Contributing
 
